@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-image: url("../src/components/images/github-mark.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .App-logo {
@@ -35,4 +38,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container{
+
+  height: 1000px;
+  justify-content: center;
+}
+.card{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+  width: fit-content;  
+  margin-top: 50px;
+  background-color: white;
+  padding: 20px;
+  opacity: 0.9;
+  border-radius: 5%;
+  box-shadow: 5px 5px 15px gray;
+}
+h1 {
+  font-size: 50px;
+  font-family: 'Henny Penny', cursive;
+}
+p {
+  color: red;
+  font-size: 12px;
+  line-height: 0.1;
+  font-style: italic;
+  }
+.followers h2{
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
 }
